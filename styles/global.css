@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: 1100px;
+  margin: 0 auto;
+  font-family: Raleway, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline solid black 1px;
+  text-underline-offset: 4px;
+  font-style: normal;
+}
+
+img {
+  width: 100%;
+}
+
+
+h1 {
+  font-size: 100px;
+  line-height: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 30px;
+}
+
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 120%;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: underline;
+}
